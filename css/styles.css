@@ -1,4 +1,4 @@
-:root{
+:root {
     --brand-color-black: #212121;
     --brand-color-blue: #2196F3;
     --brand-color-gray: #757575;
@@ -20,8 +20,46 @@ body {
     color: var(--brand-color-black);
 }
 
-.dot-hide > li {
-    list-style-type: none; 
+.padding-hide {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.gborder {
+    border-bottom: #ECECEC solid 1px;
+}
+
+.header-padding {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.about-us-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.what-we-do-padding {
+    padding-bottom: 127px;
+}
+
+.our-team-padding {
+    padding-top: 89.21px;
+    padding-bottom: 89.21px;
+}
+.footer-padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.product-padding {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px 0px 15px;
 }
 
 .navigation {
@@ -38,13 +76,14 @@ body {
 color: var(--brand-color-blue);
 }
 
-.main-statement{
+.main-statement {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin: 0px;
 }
 
 .large-button-text {
@@ -67,7 +106,12 @@ color: var(--brand-color-blue);
     height: 50px;
 }
 
-.small-button-text button{
+.large-button:hover,
+.larger-button:focus {
+    background-color: #188CE8;
+}
+
+.small-button-text button {
     font-family: 'roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -79,7 +123,7 @@ color: var(--brand-color-blue);
 .small-button-text button:focus {
     color: var(--brand-color-white);
 }
-.small-button button{
+.small-button button {
     background-color: var(--brand-color-white);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -87,37 +131,42 @@ color: var(--brand-color-blue);
     }
 
 .small-button button:hover,
-.small-button button:focus{
+.small-button button:focus {
     background-color: var(--brand-color-blue);
 }
 
-.articles-header h3{
+.articles-header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0px;
 }
 
-.articles-paragraph p{
+.articles-paragraph {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
+    margin: 0px;
 }
-.product-header h2 {
+
+.product-header {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin: 0px;
 }
-.product-parafraph p{
+.product-paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
+    margin: 0px;
 }
 
 .header2wwd {
@@ -126,6 +175,7 @@ color: var(--brand-color-blue);
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 
 .header2oc {
@@ -134,26 +184,34 @@ color: var(--brand-color-blue);
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 
-.team-name h3{
+.hiddenh2 {
+    position: fixed;
+  transform: scale(0);
+}
+
+.hero3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0px;
 }
 
-.job-position p{
+.job-position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-gray);
+    margin: 0px;
 }
 
-.footer-nav{
+.footer-nav {
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
@@ -185,7 +243,7 @@ color: var(--brand-color-blue);
     color: var(--brand-color-blue);
 }
 
-.backgroundblk{
+.backgroundblk {
 background-color: var(--background-color);
 }
 
