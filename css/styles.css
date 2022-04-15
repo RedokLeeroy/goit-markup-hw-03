@@ -37,14 +37,9 @@ body {
     border-bottom: #ECECEC solid 1px;
 }
 
-.header-padding {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
 .hero-padding{
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .what-we-do-padding {
@@ -71,6 +66,7 @@ body {
 .flex-shop-buttons{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .flex-about-us{
@@ -116,7 +112,16 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--brand-color-black);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.navigation-mar{
     margin-right: 50px;
+}
+
+.navigation-mar:last-child{
+    margin: 0px;
 }
 
 .navigation-item:hover,
@@ -124,9 +129,6 @@ body {
 color: var(--brand-color-blue);
 }
 
-.telephone{
-    margin: auto;
-}
 
 .main-statement {
     font-weight: 900;
@@ -178,7 +180,6 @@ color: var(--brand-color-blue);
     border: 0px;
 }
 .small-button-item {
-    margin-bottom: 50px;
     margin-right: 8px;
 }
 .small-button-item:last-child {
@@ -219,6 +220,10 @@ color: var(--brand-color-blue);
     margin-right: 0px;
 }
 
+.image-display{
+    display: block;
+}
+
 .articles-header {
     font-weight: 700;
     font-size: 14px;
@@ -227,6 +232,7 @@ color: var(--brand-color-blue);
     text-transform: uppercase;
     margin: 0px;
     width: 270px;
+    margin-bottom: 10px;
 }
 
 .articles-paragraph {
@@ -245,6 +251,7 @@ color: var(--brand-color-blue);
     line-height: 2;
     letter-spacing: 0.06em;
     margin: 0px;
+    margin-bottom: 4px;
 }
 .product-paragraph {
     font-weight: 400;
@@ -282,7 +289,7 @@ color: var(--brand-color-blue);
     margin-right: 30px;
 }
 
-.team-item :last-child{
+.team-item:last-child{
     margin-right: 0px;
 }
 .hiddenh2 {
@@ -300,7 +307,7 @@ padding: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0px;
-    margin: 9.49px;
+    margin-bottom: 9.49px;
 }
 
 .job-position {
